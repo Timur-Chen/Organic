@@ -1,0 +1,21 @@
+.text {
+  
+  &__subtitle {
+    font-family: "Yellowtail";
+    font-size: 36px;
+    line-height: 180%;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    color: $green;
+  }
+
+  &__title {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 130%;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    color: $blue;
+  }
+}

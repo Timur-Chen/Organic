@@ -1,0 +1,35 @@
+.mobile-nav {
+  position: fixed;
+  display: flex;
+  align-items: flex-start;
+  background-color: rgba(126, 182, 147, 1);
+  width: 100%;
+  max-width: 350px;
+  height: 100%;
+  top: 0;
+  right: -100%;
+  padding-top: 100px;
+  padding-left: 20px;
+  z-index: 100;
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  &__item {
+
+  }
+
+  &__link {
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.36px;
+    transition: 0.3s ease;
+    color: $blue;
+    &:hover {
+      color: white;
+    }
+  }
+}

@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Organic</title>
+  <!-- REMIX ICON -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+  />
+  <!-- CUSTOM CSS -->
+  <link rel="stylesheet" href="./css/main.min.css" />
+</head>
+
+<body>
+  <header class="header" id="header">
+    <div class="container">
+      <div class="header__inner">
+
+        <!-- LOGO -->
+        <div class="logo">
+          <a class="logo__link" href="/">
+            <img class="logo__img" src="./images/logo.svg" alt="Site Logo" />
+          </a>
+        </div>
+
+        <!-- NAV -->
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link active" href="#hero">Home</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#about">About Us</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#products">Shop</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#types">Pages</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#footer">Contact Us</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="toggle">
+          <i class="ri-menu-line"></i>
+        </div>
+
+        <!-- MOBILE NAV -->
+        <nav class="mobile-nav">
+          <ul class="mobile-nav__list">
+            <li class="mobile-nav__item">
+              <a href="#hero" class="mobile-nav__link">Home</a>
+            </li>
+            <li class="mobile-nav__item">
+              <a href="#about" class="mobile-nav__link">About Us</a>
+            </li>
+            <li class="mobile-nav__item">
+              <a href="#products" class="mobile-nav__link">Shop</a>
+            </li>
+            <li class="mobile-nav__item">
+              <a href="#types" class="mobile-nav__link">Pages</a>
+            </li>
+            <li class="mobile-nav__item">
+              <a href="#footer" class="mobile-nav__link">Contact Us</a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- CART -->
+        <div class="cart">
+          <div class="cart__image">
+            <img class="cart__img" src="./images/logo-basket.svg" />
+          </div>
+          <a class="cart__link" href="#">
+            Cart <span class="cart__counter">0</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="main" id="main">
+    <!-- HERO -->
+    <section class="hero" id="hero">
+      <div class="container">
+        <div class="hero__inner">
+          <p class="text__subtitle">Made with nature</p>
+          <h1 class="text__title">Welcome to the world of nature and organic</h1>
+          <a class="btn-yellow hero__cta" href="#">Explore now <img src="./images/arrow.svg" /></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ADVERTISEMENT -->
+    <section class="ads" id="ads">
+      <div class="container">
+        <div class="ads__inner">
+          <!-- LEFT COLUMN -->
+          <div class="ads__column-left">
+            <div class="ads__column-left-text">
+              <p class="text__subtitle">Natural!!</p>
+              <h2 class="text__title">Get Garden Fresh Fruits</h2>
+            </div>
+          </div>
+          <!-- RIGHT COLUMN -->
+          <div class="ads__column-right">
+            <div class="ads__column-right-text">
+              <p class="text__subtitle">Offer!!</p>
+              <h2 class="text__title">Get 10% off on Vegetables</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT US -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="about__inner">
+
+          <!-- LEFT COLUMN -->
+          <div class="about__column-left" id="left">
+            <img src="./images/about-img.png" alt="">
+          </div>
+
+          <!-- RIGHT COLUMN -->
+          <div class="about__column" id="right">
+
+            <!-- ABOUT SECTION TEXT -->
+            <div class="about__texts">
+              <p class="text__subtitle">About US</p>
+              <h2 class="text__title">We Believe In Organic foods for strong health</h2 class="subtitle">
+              <p>Welcome to&nbsp;the world of&nbsp;natural and organic. Here you can discover the bounty of&nbsp;nature.
+                We&nbsp;have grown on&nbsp;the principles of&nbsp;health, and care. We&nbsp;aim to&nbsp;give our
+                customers a&nbsp;healthy chemical-free meal for perfect nutrition.
+              </p>
+            </div>
+
+            <!-- SECTIONS -->
+            <div class="about__sections">
+
+              <div class="about__section">
+                <div class="about__section-img">
+                  <img src="./images/about-subimg-1.png" alt="">
+                </div>
+                <div class="about__section-text">
+                  <h3>Organic Foods Only</h3>
+                  <p>The Product that you ordered will be&nbsp;verified that we&nbsp;have or&nbsp;not if&nbsp;have
+                    we&nbsp;will start to&nbsp;move on&nbsp;with the next step.</p>
+                </div>
+              </div>
+
+              <div class="about__section">
+                <div class="about__section-img">
+                  <img src="./images/about-subimg-2.png" alt="">
+                </div>
+                <div class="about__section-text">
+                  <h3>Quality Standards</h3>
+                  <p>Once your product is&nbsp;packed it&nbsp;will be&nbsp;delivered to&nbsp;your nearby locality you
+                    can directly visit the to&nbsp;buy the product.</p>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- BUTTON -->
+            <a class="btn-blue hero__cta" href="#">Explore now <img src="./images/arrow.svg" /></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCTS -->
+    <section class="products" id="products">
+      <div class="container">
+        <div class="products__inner">
+
+          <div class="products__text">
+            <p class="text__subtitle">Organic</p>
+            <h4 class="text__title">Our products</h4>
+          </div>
+
+          <div class="products__list">
+
+            <div class="product">
+              <div class="product__card">
+                <div class="product__type">
+                  <p>Vegetable</p>
+                </div>
+                <div class="product__img">
+                  <img src="./images/products/broccoli.jpg" alt="">
+                </div>
+                <div class="product__title">
+                  <h5 class="product__name">Calabrese Broccoli</h5>
+                  <hr />
+                  <div class="product__info">
+                    <div class="product__prices">
+                      <p class="product__sale">$ 25.00 USD</p>
+                      <p class="product__price">$ 21.00 USD</p>
+                    </div>
+                    <div class="product__rate">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                      <i class="ri-star-line"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="product">
+              <div class="product__card">
+                <div class="product__type">
+                  <p>Vegetable</p>
+                </div>
+                <div class="product__img">
+                  <img src="./images/products/corn.jpg" alt="">
+                </div>
+                <div class="product__title">
+                  <h5 class="product__name">Fresh Corn</h5>
+                  <hr />
+                  <div class="product__info">
+                    <div class="product__prices">
+                      <p class="product__sale">$ 21.23 USD</p>
+                      <p class="product__price">$ 18.00 USD</p>
+                    </div>
+                    <div class="product__rate">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                      <i class="ri-star-line"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="product">
+              <div class="product__card">
+                <div class="product__type">
+                  <p>Mill</p>
+                </div>
+                <div class="product__img">
+                  <img src="./images/products/pistachio.jpg" alt="">
+                </div>
+                <div class="product__title">
+                  <h5 class="product__name">Dried Pistachio</h5>
+                  <hr />
+                  <div class="product__info">
+                    <div class="product__prices">
+                      <p class="product__sale">$ 61.00 USD</p>
+                      <p class="product__price">$ 48.00 USD</p>
+                    </div>
+                    <div class="product__rate">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                      <i class="ri-star-line"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="product">
+              <div class="product__card">
+                <div class="product__type">
+                  <p>Vegetable</p>
+                </div>
+                <div class="product__img">
+                  <img src="./images/products/tomato.jpg" alt="">
+                </div>
+                <div class="product__title">
+                  <h5 class="product__name">Vegan Red Tomato</h5>
+                  <hr />
+                  <div class="product__info">
+                    <div class="product__prices">
+                      <p class="product__sale">$ 14.00 USD</p>
+                      <p class="product__price">$ 9.37 USD</p>
+                    </div>
+                    <div class="product__rate">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                      <i class="ri-star-line"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="product">
+              <div class="product__card">
+                <div class="product__type">
+                  <p>Fruits</p>
+                </div>
+                <div class="product__img">
+                  <img src="./images/products/almonds.jpg" alt="">
+                </div>
+                <div class="product__title">
+                  <h5 class="product__name">Organic Almonds</h5>
+                  <hr />
+                  <div class="product__info">
+                    <div class="product__prices">
+                      <p class="product__sale">$ 21.00 USD</p>
+                      <p class="product__price">$ 18.00 USD</p>
+                    </div>
+                    <div class="product__rate">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                      <i class="ri-star-line"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="product">
+              <div class="product__card">
+                <div class="product__type">
+                  <p>Mill</p>
+                </div>
+                <div class="product__img">
+                  <img src="./images/products/hazelnut.jpg" alt="">
+                </div>
+                <div class="product__title">
+                  <h5 class="product__name">Calabrese Broccoli</h5>
+                  <hr />
+                  <div class="product__info">
+                    <div class="product__prices">
+                      <p class="product__sale">$ 43.00 USD</p>
+                      <p class="product__price">$ 34.00 USD</p>
+                    </div>
+                    <div class="product__rate">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                      <i class="ri-star-line"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CUSTOMER -->
+    <section class="customer" id="customer">
+      <div class="">
+        <div class="customer__text text">
+          <p class="text__subtitle">Testimonial</p>
+          <h2 class="text__title">what our customer saying?</h2>
+        </div>
+        <div class="customer__inner">
+          <div class="testimonials">
+            <div class="testimonials__swiper swiper">
+              <div class="testimonials__wrapper swiper-wrapper">
+                <div class="testimonials__slide swiper-slide">
+                  <div class="testimonials__item">
+                    <div class="testimonials__image">
+                      <img src="./images/user-1.jpg" alt="" />
+                    </div>
+                    <div class="testimonials__stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                    </div>
+                    <p class="testimonials__desc">The quality of organic produce is extremely high, the service is second to none and the taste of the food takes me back to my childhood when we were growing our own.</p>
+                    <div class="testimonials__user">
+                      <h3 class="testimonials__username">Sara Taylor</h3>
+                      <span class="testimonials__who">Consumer</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="testimonials__slide swiper-slide">
+                  <div class="testimonials__item">
+                    <div class="testimonials__image">
+                      <img src="./images/user-2.jpg" alt="" />
+                    </div>
+                    <div class="testimonials__stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                    </div>
+                    <p class="testimonials__desc">The quality of organic produce is extremely high, the service is second to none and the taste of the food takes me back to my childhood when we were growing our own.</p>
+                    <div class="testimonials__user">
+                      <h3 class="testimonials__username">Oliver Dias</h3>
+                      <span class="testimonials__who">Consumer</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="testimonials__slide swiper-slide">
+                  <div class="testimonials__item">
+                    <div class="testimonials__image">
+                      <img src="./images/user-3.jpg" alt="" />
+                    </div>
+                    <div class="testimonials__stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                    </div>
+                    <p class="testimonials__desc">The quality of organic produce is extremely high, the service is second to none and the taste of the food takes me back to my childhood when we were growing our own.</p>
+                    <div class="testimonials__user">
+                      <h3 class="testimonials__username">Benjamin Mask</h3>
+                      <span class="testimonials__who">Consumer</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- CUSTOMER BOTTOM -->
+          <div class="customer__bottom">
+
+            <div class="customer__bottom-outer">
+              <div class="customer__bottom-inner">
+                <div class="customer__bottom-text">
+                  <p class="proportion">100%</p>
+                  <p class="proportion-title">organic</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="customer__bottom-outer">
+              <div class="customer__bottom-inner">
+                <div class="customer__bottom-text">
+                  <p class="proportion">285</p>
+                  <p class="proportion-title">active product</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="customer__bottom-outer">
+              <div class="customer__bottom-inner">
+                <div class="customer__bottom-text">
+                  <p class="proportion">385+</p>
+                  <p class="proportion-title">organic orchads</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="customer__bottom-outer">
+              <div class="customer__bottom-inner">
+                <div class="customer__bottom-text">
+                  <p class="proportion">25+</p>
+                  <p class="proportion-title">years of farming</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- OFFER -->
+    <section class="offer" id="offer">
+      <div class="container">
+        <div class="offer__inner">
+
+          <div class="offer__heading">
+
+            <div class="offer__text">
+              <p class="text__subtitle"> offer products</p>
+              <h4 class="text__title">we offer organic for you</h4>
+            </div>
+
+            <a class="btn-yellow " href="#">view all products <img src="./images/arrow.svg" /></a>
+
+          </div>
+
+          <div class="products__list">
+
+            <div class="product">
+              <div class="product__card">
+                <div class="product__type">
+                  <p>Vegetable</p>
+                </div>
+                <div class="product__img">
+                  <img src="./images/products/tomato.jpg" alt="">
+                </div>
+                <div class="product__title">
+                  <h5 class="product__name">Vegan Red Tomato</h5>
+                  <hr />
+                  <div class="product__info">
+                    <div class="product__prices">
+                      <p class="product__sale">$ 14.00 USD</p>
+                      <p class="product__price">$ 9.37 USD</p>
+                    </div>
+                    <div class="product__rate">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                      <i class="ri-star-line"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="product">
+              <div class="product__card">
+                <div class="product__type">
+                  <p>Fruit</p>
+                </div>
+                <div class="product__img">
+                  <img src="./images/products/almonds.jpg" alt="">
+                </div>
+                <div class="product__title">
+                  <h5 class="product__name">Organic Almonds</h5>
+                  <hr />
+                  <div class="product__info">
+                    <div class="product__prices">
+                      <p class="product__sale">$ 21.00 USD</p>
+                      <p class="product__price">$ 18.00 USD</p>
+                    </div>
+                    <div class="product__rate">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                      <i class="ri-star-line"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="product">
+              <div class="product__card">
+                <div class="product__type">
+                  <p>Vegetable</p>
+                </div>
+                <div class="product__img">
+                  <img src="./images/products/corn.jpg" alt="">
+                </div>
+                <div class="product__title">
+                  <h5 class="product__name">Fresh Corn</h5>
+                  <hr />
+                  <div class="product__info">
+                    <div class="product__prices">
+                      <p class="product__sale">$ 21.23 USD</p>
+                      <p class="product__price">$ 18.00 USD</p>
+                    </div>
+                    <div class="product__rate">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                      <i class="ri-star-line"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- FARM -->
+    <section class="farm" id="farm">
+      <div class="farm__container container">
+        <div class="farm__inner">
+          <div class="farm-text">
+            <div class="farm__heading">
+              <p class="text__subtitle">farm friendly</p>
+              <h4 class="inner__title">from our farm to your home</h4>
+            </div>
+            <div class="farm_paragraph">
+              <p class="farm_paragraph-title">Choose Your Products</p>
+              <p class="farm_paragraph-subtitle">In&nbsp;our listing, we&nbsp;have several collections of&nbsp;organic
+                products. This is&nbsp;the place where you need to&nbsp;choose the product you want.</p>
+
+              <p class="farm_paragraph-title">Farmers will produce it</p>
+              <p class="farm_paragraph-subtitle">The Product that you ordered will be&nbsp;verified that we&nbsp;have
+                or&nbsp;not if&nbsp;have we&nbsp;will start to&nbsp;move on&nbsp;with the next step.</p>
+
+              <p class="farm_paragraph-title">We Can Delivery too</p>
+              <p class="farm_paragraph-subtitle">If&nbsp;you are not comfortable going to&nbsp;the nearby market place
+                we&nbsp;also will deliver your product to&nbsp;your doorstep.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- TYPES   -->
+    <section class="types" id="types">
+      <div class="types__container container">
+        <div class="types__inner types__list">
+
+          <div class="grid__item type">
+            <a href="#" class="type__title">Fruit juice</a>
+            <div class="type__img">
+              <img src="./images/card-1.jpg" alt="">
+            </div>
+          </div>
+
+          <div class="grid__item type">
+            <a href="#" class="type__title">organic food</a>
+            <div class="type__img">
+              <img src="./images/card-2.jpg" alt="">
+            </div>
+          </div>
+
+          <div class="grid__item type">
+            <a href="#" class="type__title">Nuts Cookies</a>
+            <div class="type__img">
+              <img src="./images/card-3.jpg" alt="">
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- RECENT CONTENT -->
+    <section class="content" id="content">
+      <div class="container">
+        <div class="content__inner">
+
+          <div class="content__text">
+            <div class="content__heading">
+              <p class="text__subtitle">News</p>
+              <h4 class="text__title">Discover The recent content about organic products</h4>
+            </div>
+            <a class="btn-white " href="#">view all products <img src="./images/arrow.svg" /></a>
+          </div>
+
+          <div class="content__cards">
+
+            <div class="content__card">
+              <div class="content__card-img">
+                <img src="./images/news/news-1.jpg" alt="">
+              </div>
+              <div class="content__card-text">
+                <div class="content__user">
+                  <i class="ri-user-fill"></i>
+                  <p class="content__username">Kristina Castle</p>
+                </div>
+                <h4 class="content__card-title">Everything You Need to Know About Organic</h4>
+                <p class="content__card-subtitle">Organic farming is&nbsp;the only way that you still can experience the
+                  real world.</p>
+                <a href="#" class="content__link">view more <img src="./images/arrow.svg" alt=""></a>
+              </div>
+            </div>
+
+            <div class="content__card">
+              <div class="content__card-img">
+                <img src="./images/news/news-2.jpg" alt="">
+              </div>
+              <div class="content__card-text">
+                <div class="content__user">
+                  <i class="ri-user-fill"></i>
+                  <p class="content__username">Alex Louis</p>
+                </div>
+                <h4 class="content__card-title">Organic Fruits: Surprising Benefits and Facts</h4>
+                <p class="content__card-subtitle">The world of&nbsp;nature has grown on&nbsp;the principles
+                  of&nbsp;health, ecology, and care.</p>
+                <a href="#" class="content__link">view more <img src="./images/arrow.svg" alt=""></a>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SUBSCRIBE -->
+    <section class="subscribe" id="subscribe">
+      <div class="container">
+        <div class="subscribe__inner">
+          <h4 class="subscribe__title">subscribe our newsletter</h4>
+          <form>
+            <input type="text" name="" id="" placeholder="Enter your email address">
+            <a class="btn-blue" href="#">Subscribe<img src="./images/arrow.svg" /></a>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer__inner">
+
+        <div class="footer__contact" id="footer__contact">
+          <p class="contact__title">contact us</p>
+          <div class="contact-email">
+            <p class="email">email</p>
+            <p class="email-adress">organick@gmail.com</p>
+          </div>
+          <div class="contact-phone">
+            <p class="phone">phone</p>
+            <p class="phone-number">+371 26661998</p>
+          </div>
+          <div class="contact__adress">
+            <p class="address">address</p>
+            <p class="address-txt">Raunas street 44, Riga</p>
+          </div>
+        </div>
+
+        <div class="footer__company" id="footer__company">
+          <div class="company-logo">
+            <img src="./images/logo.svg" alt="">
+          </div>
+          <p class="company-text">We&nbsp;are a&nbsp;popular and farming company aspiring to&nbsp;be&nbsp;a&nbsp;leader
+            in&nbsp;the Organic food industry.</p>
+          <div class="network-logos">
+            <a href="#"><i class="ri-facebook-circle-fill ri-lg"></i></a>
+            <a href="#"><i class="ri-twitter-fill ri-lg"></i></a>
+            <a href="#"><i class="ri-instagram-line ri-lg"></i></a>
+            <a href="#"><i class="ri-pinterest-fill ri-lg"></i></a>
+          </div>
+        </div>
+
+        <div class="footer__pages" id="footer__pages">
+          <p class="pages__title">utility pages</p>
+          <ul class="page__list">
+            <li class="page__item"><a href="#" class="page__link">style guide</a></li>
+            <li class="page__item"><a href="#" class="page__link">protected</a></li>
+            <li class="page__item"><a href="#" class="page__link">page not found</a></li>
+            <li class="page__item"><a href="#" class="page__link">changelog</a></li>
+            <li class="page__item"><a href="#" class="page__link">licenses</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+    <hr>
+    <p class="footer__title">Copyright&nbsp;©&nbsp;Organick | Designed&nbsp;by&nbsp;VictorFlow&nbsp;-nbsp;Powered&nbsp;by&nbsp;Webflow |
+      Practiced&nbsp;by&nbsp;<b>Temur&nbsp;Tursunboev</b></p>
+  </footer>
+
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script src="./js/scripts.js"></script>
+</body>
+
+</html>

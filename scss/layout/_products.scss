@@ -1,0 +1,24 @@
+.products {
+  padding-top: 100px;
+  padding-bottom: 100px;
+    &__inner {
+
+    }
+    &__text {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 42px;
+    }
+    &__list {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0;
+      margin: 0;
+      justify-content: center;
+  
+      @media (min-width: 576px) {
+        justify-content: space-evenly;
+      }
+    }
+  }
